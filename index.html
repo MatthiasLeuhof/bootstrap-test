@@ -10,7 +10,137 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+      <!-- TYPOGRAPHY -->
+      <h1 class="page-header">Hello, world! <small>Secondary text</small></h1>
+      <h2>Header 2</h2>
+      <h3>Header 3</h3>
+      <h4>Header 4</h4>
+      <h5>Header 5</h5>
+      <h6>Header 6</h6>
+      <p class="lead"><mark>Lorem ipsum dolor sit amet,</mark> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation <del>ullamco laboris nisi</del> ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore <u>eu fugiat nulla pariatur</u>. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+       <hr>
+
+      <!-- ALIGNMENT & TRANSFORMATIONS -->
+      <p class="text-left text-lowercase">Left aligned text.</p>
+      <p class="text-right text-uppercase">Right aligned text.</p>
+      <p class="text-center text-capitalize">Center aligned text.</p>
+      <p class="text-justify">Justified text</p>
+      <p class="text-nowrap">No wrap text.</p>
+
+      <!-- FLOATS -->
+      <div class="pull-right">Div floated right</div>
+      <div class="pull-left">Div floated left</div>
+
+      <!-- CLEARFIX -->
+      <div class="clearfix"></div>
+
+      <hr>
+
+      <!-- BLOCKQUOTE -->
+      <blockquote class="blockquote">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <footer>Quote by <cite title="John Doe">John Doe</cite></footer>
+      </blockquote>
+
+      <blockquote class="blockquote-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <footer>Quote by <cite title="John Doe">John Doe</cite></footer>
+      </blockquote>
+
+      <hr>
+
+      <!-- LISTS -->
+      <ul class="list-unstyled">
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+      </ul>
+
+      <ul class="list-inline">
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+      </ul>
+
+      <hr>
+
+      <!-- CODE -->
+      <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+      <br>
+      Change directory with <kbd>cd</kbd>
+      <br>
+      To edit settings press <kbd><kbd>cmd</kbd> + <kbd>,</kbd></kbd>
+
+      <hr>
+
+      <!-- CONTEXTUAL COLORS -->
+      <p class="text-primary">Contextual color</p>
+      <p class="text-success">Contextual color</p>
+      <p class="text-info">Contextual color</p>
+      <p class="text-warning">Contextual color</p>
+      <p class="text-danger">Contextual color</p>
+      <p class="text-muted">Contextual color</p>
+
+      <!-- CONTEXTUAL BACKGROUND COLORS -->
+      <p class="bg-primary">Contextual backgrounds</p>
+      <p class="bg-success">Contextual backgrounds</p>
+      <p class="bg-info">Contextual backgrounds</p>
+      <p class="bg-warning">Contextual backgrounds</p>
+      <p class="bg-danger">Contextual backgrounds</p>
+      <p class="bg-muted">Contextual backgrounds</p>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+      <!-- BUTTONS -->
+      <button class="btn btn-default">Button</button>
+      <a href="#" class="btn btn-default" role="button">Link</a>
+      <input type="submit" class="btn btn-default" value="Submit">
+      <br>
+      <!-- CONTEXTUAL BUTTONS -->
+      <button class="btn btn-default">Default</button>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-info">Info</button>
+      <button class="btn btn-warning">Warning</button>
+      <button class="btn btn-danger">Delete</button>
+      <button class="btn btn-link">Link</button>
+      <br>
+      <!-- BUTTON SIZES -->
+      <button class="btn btn-default btn-lg">Large</button>
+      <button class="btn btn-default">Default</button>
+      <button class="btn btn-default btn-sm">Small</button>
+      <button class="btn btn-default btn-xs" disabled="disabled">Extra small</button>
+
+      <hr>
+
+      <!-- FORMS -->
+      <form class="" action="index.html" method="post">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="John Doe">
+
+        </div>
+
+      </form>
+
+
+    </div>
+
+    <div style="height:500px">
+
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
